@@ -113,8 +113,6 @@ Terminal, floor and zone dropdowns are click-controlled and persist through the 
 
 ## 🤖 Prompt Documentation
 
-📄 [View the Detailed AI Prompt Documentation](./documentation/KOHLER_Prompts_Documentation_DETAILED_FIXED.pdf)
-
 The Prompt Documentation contains the complete AI-assisted development record used to build the KOHLER Facility Intelligence prototype.
 
 It documents the iterative development process, including:
@@ -142,8 +140,6 @@ The documentation preserves the evolution of the solution across multiple prompt
 ---
 
 ## 🎨 Presentation Deck
-
-📑 [View the Final Presentation Deck](./documentation/KOHLER_Facility_Intelligence_Presentation.pdf)
 
 The presentation deck summarizes the complete solution within the required maximum of four slides.
 
