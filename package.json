@@ -1,0 +1,8 @@
+{
+  "name":"kohler-facility-intelligence-modular",
+  "private":true,
+  "version":"1.1.0",
+  "type":"module",
+  "scripts":{"dev":"node scripts/dev.mjs","dev:frontend":"vite --host 127.0.0.1","dev:backend":"node server/index.mjs","build":"vite build","preview":"vite preview"},
+  "dependencies":{"@vitejs/plugin-react":"6.1.1","lucide-react":"1.47.0","react":"19.3.0","react-dom":"19.3.0","recharts":"3.10.1","vite":"8.3.0"}
+}

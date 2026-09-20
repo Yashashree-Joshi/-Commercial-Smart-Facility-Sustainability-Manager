@@ -1,0 +1,528 @@
+{
+  "ctx": {
+    "terminal": "Terminal 3",
+    "zone": "Administration",
+    "floor": "Floor 3",
+    "mode": "Normal operation"
+  },
+  "running": false,
+  "paused": false,
+  "fixtures": [
+    {
+      "id": "M-W202-T01",
+      "type": "Toilet",
+      "room": "Men's • W202",
+      "x": 18,
+      "y": 24,
+      "flow": 0.06,
+      "occ": 0,
+      "flushes": 30,
+      "health": 100,
+      "position": "West wall · Bay 01",
+      "status": "normal"
+    },
+    {
+      "id": "M-W202-T02",
+      "type": "Toilet",
+      "room": "Men's • W202",
+      "x": 18,
+      "y": 50,
+      "flow": 0.13,
+      "occ": 0,
+      "flushes": 31,
+      "health": 100,
+      "position": "West wall · Bay 02",
+      "status": "normal"
+    },
+    {
+      "id": "M-W202-T03",
+      "type": "Toilet",
+      "room": "Men's • W202",
+      "x": 18,
+      "y": 76,
+      "flow": 0.03,
+      "occ": 0,
+      "flushes": 20,
+      "health": 100,
+      "position": "West wall · Bay 03",
+      "status": "normal"
+    },
+    {
+      "id": "M-W202-U01",
+      "type": "Urinal",
+      "room": "Men's • W202",
+      "x": 52,
+      "y": 22,
+      "flow": 0.11,
+      "occ": 0,
+      "flushes": 44,
+      "health": 100,
+      "position": "North wall · Bay 01",
+      "status": "normal"
+    },
+    {
+      "id": "M-W202-U02",
+      "type": "Urinal",
+      "room": "Men's • W202",
+      "x": 52,
+      "y": 40,
+      "flow": 0.15,
+      "occ": 1,
+      "flushes": 38,
+      "health": 51,
+      "position": "North wall · Bay 02",
+      "status": "normal"
+    },
+    {
+      "id": "M-W202-U03",
+      "type": "Urinal",
+      "room": "Men's • W202",
+      "x": 52,
+      "y": 58,
+      "flow": 0.04,
+      "occ": 0,
+      "flushes": 36,
+      "health": 100,
+      "position": "North wall · Bay 03",
+      "status": "normal"
+    },
+    {
+      "id": "M-W202-S01",
+      "type": "Sink",
+      "room": "Men's • W202",
+      "x": 78,
+      "y": 83,
+      "flow": 0.13,
+      "occ": 0,
+      "flushes": 0,
+      "health": 100,
+      "position": "East wall · Sink 01",
+      "status": "normal"
+    },
+    {
+      "id": "M-W202-S02",
+      "type": "Sink",
+      "room": "Men's • W202",
+      "x": 91,
+      "y": 83,
+      "flow": 0.07,
+      "occ": 0,
+      "flushes": 0,
+      "health": 100,
+      "position": "East wall · Sink 02",
+      "status": "normal"
+    },
+    {
+      "id": "F-W203-T01",
+      "type": "Toilet",
+      "room": "Women's • W203",
+      "x": 18,
+      "y": 24,
+      "flow": 0.09,
+      "occ": 0,
+      "flushes": 38,
+      "health": 100,
+      "position": "West wall · Bay 01",
+      "status": "normal"
+    },
+    {
+      "id": "F-W203-T02",
+      "type": "Toilet",
+      "room": "Women's • W203",
+      "x": 18,
+      "y": 50,
+      "flow": 0.06,
+      "occ": 0,
+      "flushes": 32,
+      "health": 100,
+      "position": "West wall · Bay 02",
+      "status": "normal"
+    },
+    {
+      "id": "F-W203-T03",
+      "type": "Toilet",
+      "room": "Women's • W203",
+      "x": 18,
+      "y": 76,
+      "flow": 0.03,
+      "occ": 0,
+      "flushes": 33,
+      "health": 100,
+      "position": "West wall · Bay 03",
+      "status": "normal"
+    },
+    {
+      "id": "F-W203-T04",
+      "type": "Toilet",
+      "room": "Women's • W203",
+      "x": 42,
+      "y": 24,
+      "flow": 0.16,
+      "occ": 1,
+      "flushes": 43,
+      "health": 100,
+      "position": "North wall · Bay 04",
+      "status": "normal"
+    },
+    {
+      "id": "F-W203-T05",
+      "type": "Toilet",
+      "room": "Women's • W203",
+      "x": 42,
+      "y": 50,
+      "flow": 0.05,
+      "occ": 0,
+      "flushes": 33,
+      "health": 100,
+      "position": "North wall · Bay 05",
+      "status": "normal"
+    },
+    {
+      "id": "F-W203-S01",
+      "type": "Sink",
+      "room": "Women's • W203",
+      "x": 78,
+      "y": 83,
+      "flow": 0.03,
+      "occ": 0,
+      "flushes": 0,
+      "health": 100,
+      "position": "East wall · Sink 01",
+      "status": "normal"
+    },
+    {
+      "id": "F-W203-S02",
+      "type": "Sink",
+      "room": "Women's • W203",
+      "x": 91,
+      "y": 83,
+      "flow": 0.02,
+      "occ": 1,
+      "flushes": 0,
+      "health": 100,
+      "position": "East wall · Sink 02",
+      "status": "normal"
+    },
+    {
+      "id": "A-W204-01",
+      "type": "Accessible",
+      "room": "Accessible • W204",
+      "x": 15,
+      "y": 50,
+      "flow": 0.04,
+      "occ": 0,
+      "flushes": 12,
+      "health": 100,
+      "position": "Lobby · Accessible bay",
+      "status": "normal"
+    },
+    {
+      "id": "B-W205-01",
+      "type": "Baby Care",
+      "room": "Baby Care • W205",
+      "x": 85,
+      "y": 50,
+      "flow": 0.04,
+      "occ": 0,
+      "flushes": 0,
+      "health": 100,
+      "position": "Women's adjacent · Baby care",
+      "status": "normal"
+    },
+    {
+      "id": "M-W202-D01",
+      "type": "Dryer",
+      "room": "Men's • W202",
+      "x": 84,
+      "y": 64,
+      "flow": 0.11,
+      "occ": 0,
+      "flushes": 0,
+      "health": 100,
+      "position": "East wall · Dryer 01",
+      "status": "normal"
+    }
+  ],
+  "incidents": [],
+  "tickets": [
+    {
+      "id": "KT-1043",
+      "fixtureId": "M-W202-U02",
+      "issue": "Sensor fault investigation",
+      "priority": "High",
+      "status": "Resolved",
+      "source": "simulated",
+      "createdAt": "2026-09-20T12:59:04.422Z",
+      "resolvedAt": "2026-09-20T13:01:09.953Z"
+    },
+    {
+      "id": "KT-1042",
+      "fixtureId": "M-W202-U03",
+      "issue": "Preventive check",
+      "priority": "Medium",
+      "status": "Open",
+      "source": "manual",
+      "createdAt": "2026-09-19T16:57:37.628Z"
+    },
+    {
+      "id": "KT-1038",
+      "fixtureId": "F-W203-T04",
+      "issue": "Sensor calibration",
+      "priority": "Low",
+      "status": "Scheduled",
+      "source": "manual",
+      "createdAt": "2026-09-19T16:57:37.629Z"
+    },
+    {
+      "id": "KT-1031",
+      "fixtureId": "M-W202-D01",
+      "issue": "Dryer inspection",
+      "priority": "Medium",
+      "status": "In progress",
+      "source": "manual",
+      "createdAt": "2026-09-19T16:57:37.629Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "328b719c-b0e4-42ff-a6a5-65d509ea4508",
+      "at": "2026-09-20T13:01:29.135Z",
+      "message": "Facility context changed to Terminal 3 · Floor 3 · Administration",
+      "level": "info"
+    },
+    {
+      "id": "aaf36947-d83b-4b82-a9fc-93ae3eb77a02",
+      "at": "2026-09-20T13:01:26.232Z",
+      "message": "Facility context changed to Terminal 3 · Floor 1 · Public Restrooms",
+      "level": "info"
+    },
+    {
+      "id": "70f63522-b27c-4d7d-aed2-24d64c6e07fe",
+      "at": "2026-09-20T13:01:12.488Z",
+      "message": "Simulation stopped: telemetry and ticket simulation are halted",
+      "level": "warning"
+    },
+    {
+      "id": "8f4cde41-5f1c-472b-aeed-19f9a36ceee6",
+      "at": "2026-09-20T13:01:12.367Z",
+      "message": "Normal operation telemetry cycle completed",
+      "level": "info"
+    },
+    {
+      "id": "43329776-a896-4525-87d5-c8f10562360e",
+      "at": "2026-09-20T13:01:11.161Z",
+      "message": "Normal operation telemetry cycle completed",
+      "level": "info"
+    },
+    {
+      "id": "1382cb14-a124-486d-b542-8b469357f16e",
+      "at": "2026-09-20T13:01:09.955Z",
+      "message": "Normal operation telemetry cycle completed",
+      "level": "info"
+    },
+    {
+      "id": "66b1b6ff-d803-4b97-a63f-f1b73da5ec77",
+      "at": "2026-09-20T13:01:08.865Z",
+      "message": "Scenario changed to Normal operation",
+      "level": "info"
+    },
+    {
+      "id": "8bcd4834-2d83-4998-bc2d-db1b8d2772bd",
+      "at": "2026-09-20T13:01:08.751Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "e2012c08-4f0d-45b9-a448-fe8b5d0ee6ee",
+      "at": "2026-09-20T13:01:07.547Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "6f298f73-11b1-4ac0-b3d4-0930d83db24f",
+      "at": "2026-09-20T13:01:06.332Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "7faa1df6-116e-41d5-aa93-b7c0705d117b",
+      "at": "2026-09-20T13:01:05.130Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "5251e8bd-c5ae-4e0a-88dc-a977eab62d38",
+      "at": "2026-09-20T13:01:03.929Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "d756f2c6-ba08-49d1-88c5-ede47601e992",
+      "at": "2026-09-20T13:01:02.714Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "a357e96b-1468-4e35-8be0-44004b094e8e",
+      "at": "2026-09-20T13:01:01.499Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "7455e66f-1498-4904-84ab-af451eebbb64",
+      "at": "2026-09-20T13:01:00.285Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "e14c2b02-5b6e-4fe7-b7fa-421291fc6220",
+      "at": "2026-09-20T13:00:59.072Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "e3d16672-3d72-4f63-98d7-44d13513a4f2",
+      "at": "2026-09-20T13:00:57.862Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "f07db2d8-267e-405c-a434-898ac18b426c",
+      "at": "2026-09-20T13:00:57.594Z",
+      "message": "Ticket KT-1044 removed manually",
+      "level": "warning"
+    },
+    {
+      "id": "3b2f3d5c-5a9f-40a4-beb3-72cb5afbc18c",
+      "at": "2026-09-20T13:00:56.661Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "e82bbde4-cde1-4e32-b07c-5c026cad8ab8",
+      "at": "2026-09-20T13:00:55.449Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "b7f1e099-d723-4a00-b725-8ef00c5387a2",
+      "at": "2026-09-20T13:00:54.248Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "37289b6e-be7d-4cf3-a6c4-4d9b3982a2ef",
+      "at": "2026-09-20T13:00:53.047Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "86c42142-08bf-47bf-97ad-12cd6128e7fe",
+      "at": "2026-09-20T13:00:51.837Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "020c9284-cf2f-453b-a785-54e9f76db8ca",
+      "at": "2026-09-20T13:00:50.627Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "b4c92d0e-c64c-4448-8f02-bc683ee2a50f",
+      "at": "2026-09-20T13:00:49.418Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "08f6e809-0c03-4dd9-8545-08295f1d3dc5",
+      "at": "2026-09-20T13:00:48.216Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "aacb3533-b69d-4950-8c10-0618786beaa5",
+      "at": "2026-09-20T13:00:47.013Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "e6069bba-d270-49b0-bf01-217429e3d009",
+      "at": "2026-09-20T13:00:46.833Z",
+      "message": "Ticket KT-1044 opened for M-W202-T03",
+      "level": "warning"
+    },
+    {
+      "id": "7f3ba154-debd-49f3-a2c7-7d6038995489",
+      "at": "2026-09-20T13:00:45.808Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "b23d0d5c-1f75-4b90-8094-f250acbbbf1a",
+      "at": "2026-09-20T13:00:44.597Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "1d90a595-6fab-4056-badc-cf37ec33d7cb",
+      "at": "2026-09-20T13:00:43.377Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "a700468a-9638-4876-8482-c7d6cffc132f",
+      "at": "2026-09-20T13:00:42.173Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "f3f31722-6e49-4205-9cce-32fd6e048ced",
+      "at": "2026-09-20T13:00:40.973Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "ff8f4da0-460e-4c64-8240-df08bc6edb16",
+      "at": "2026-09-20T13:00:39.767Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "0f1cabf8-be1e-4359-a122-2ec5fe0f47c1",
+      "at": "2026-09-20T13:00:38.553Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "47dbdb20-639a-404b-9698-907b9ebb0b4f",
+      "at": "2026-09-20T13:00:37.351Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "f1eb7a59-6686-40a1-bee5-ed32d16673c7",
+      "at": "2026-09-20T13:00:36.135Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "c3f7eef3-0e56-4f3a-bcd0-4ef807fa74c2",
+      "at": "2026-09-20T13:00:34.928Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "b0542f27-991d-4278-b388-62cd85f2f312",
+      "at": "2026-09-20T13:00:33.726Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    },
+    {
+      "id": "9c565ad9-8e8c-4e37-9323-b38588b37577",
+      "at": "2026-09-20T13:00:32.524Z",
+      "message": "Sensor fault telemetry cycle completed",
+      "level": "warning"
+    }
+  ]
+}
