@@ -79,8 +79,127 @@ Analytics is driven from the same live stream and includes:
 - maintenance workload
 - virtual water footprint
 
+---
+
+## 🎥 Video Demonstration
+
+### KOHLER Facility Intelligence — Working Prototype
+
+▶️ **[Watch the 1–3 minute demonstration video](https://drive.google.com/file/d/18V1tucO5W2u7Eg_-ER_6_S-ljulQYhij/view?usp=sharing)**
+
+The demonstration covers:
+
+- Login and dashboard
+- Facility Twin
+- Terminal, floor and zone navigation
+- Real-time simulation
+- Water-leak detection
+- Restroom telemetry
+- Automatic maintenance ticket generation
+- Manual ticket management
+- Ticket resolution
+- Analytics and water-loss analysis
+- Virtual water footprint
+- Sustainability recommendations
+
 Sustainability includes reduction actions based on active water anomalies.
 
 ## Facility context
 
 Terminal, floor and zone dropdowns are click-controlled and persist through the backend `/api/context` endpoint. Terminal 2 zone information from the supplied facility context is preserved in the data layer and displayed in the Facility Twin.
+
+
+---
+
+## 🤖 Prompt Documentation
+
+📄 [View the Detailed AI Prompt Documentation](./documentation/KOHLER_Prompts_Documentation_DETAILED_FIXED.pdf)
+
+The Prompt Documentation contains the complete AI-assisted development record used to build the KOHLER Facility Intelligence prototype.
+
+It documents the iterative development process, including:
+
+- Initial requirement analysis and solution ideation
+- System architecture and technology decisions
+- UI/UX generation and refinement
+- Facility Twin and terminal/floor/zone design
+- Restroom and fixture intelligence
+- Simulation and telemetry design
+- Water-leak detection and anomaly logic
+- Maintenance-ticket automation
+- Manual ticket creation, status changes and resolution
+- Analytics and water-loss analysis
+- Virtual water-footprint design
+- Sustainability recommendations
+- Backend integration
+- Frontend/backend debugging
+- Error correction and refactoring
+- Modularization and reusable component design
+- Final integration and refinement
+
+The documentation preserves the evolution of the solution across multiple prompt iterations rather than documenting only the final implementation.
+
+---
+
+## 🎨 Presentation Deck
+
+📑 [View the Final Presentation Deck](./documentation/KOHLER_Facility_Intelligence_Presentation.pdf)
+
+The presentation deck summarizes the complete solution within the required maximum of four slides.
+
+It covers:
+
+- **Problem & Opportunity** — Water wastage, high-footfall facilities and maintenance challenges
+- **Proposed Solution** — Real-time monitoring, Facility Twin, anomaly detection and predictive dispatch
+- **System Architecture** — React, Node.js, simulation, analytics and facility intelligence
+- **Innovation & Impact** — Leak-to-ticket automation, water-loss analysis, virtual water footprint and sustainability impact
+
+---
+
+## 🚀 Implemented Project
+
+KOHLER Facility Intelligence is a functional full-stack prototype connecting facility monitoring, simulation, anomaly detection, maintenance and sustainability.
+
+### Core Features
+
+- React + Vite frontend
+- Node.js backend
+- Facility Digital Twin
+- Terminal → Floor → Zone → Restroom → Fixture navigation
+- Clickable facility and zone selections
+- Real-time-style simulated telemetry
+- Start / Stop simulation controls
+- Normal, High Traffic, Leak and Sensor Fault scenarios
+- Water-flow and continuous-leak monitoring
+- Fixture-level status: Normal, Attention, Critical and Sensor Fault
+- Automatic incident generation
+- Automatic maintenance-ticket generation
+- Manual ticket creation and removal
+- Ticket status updates and resolution
+- Live Operations dashboard
+- Water consumption analytics
+- Leak / excess-flow analytics
+- Fixture utilization analytics
+- Maintenance workload analytics
+- Projected water-loss analysis
+- Virtual water footprint
+- Sustainability recommendations
+- Shared frontend/backend facility state
+- Modular and reusable React architecture
+
+### End-to-End Workflow
+
+```text
+Telemetry
+   ↓
+Anomaly Detection
+   ↓
+Incident
+   ↓
+Maintenance Ticket
+   ↓
+Resolution
+   ↓
+Water-Loss Analysis
+   ↓
+Sustainability Insight
