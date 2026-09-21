@@ -1,4 +1,4 @@
-# KOHLER Facility Intelligence — v1.1 Modular
+# Facility Intelligence — v1.1 Modular
 
 A reusable React + Vite facility-intelligence prototype with a Node telemetry/ticket simulation backend.
 
